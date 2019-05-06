@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+main .section-1{
+    width:1920px;
+    height: 900px;
+    background-color: #2C3E50;
+}
+main .section-1 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .section-1  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 800px;
+}
+main .section-1 .header{
+    margin-left: 375px;
+    margin-right:375px;
+}
+main .section-1 .header .logo{
+    width: 194.09px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+main .section-1 .header .logo p{
+    justify-self: center;
+}
+main .section-1 .header .logo p .shop{
+    font-size:35.69px;
+    color: #1ABC9C;
+} 
+main .section-1 .header .logo p span{
+    font-size:35.69px;
+    color: white;
+}
+main .section-1 .header .logo p{
+    font-size: 23.8px;
+    color: white;
+}
+main .section-1  ul li{
+    font-size: 15px;
+    color: white;
+
+}
+main .section-1  ul li:hover{
+    color: #1ABC9C;
+}
+main .section-1  ul li:last-child{
+    margin-right: 20px;
+}
+main .section-1 .mobiles{
+    margin: 53px 70px 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .section-1 .mobiles .mobiles-text{
+    width: 576.21px;
+    height:530.79px ;
+}
+main .section-1 .mobiles .arrow{
+    width: 50px;
+    height: 65px;
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+}
+main .section-1 .mobiles .arrow i{
+    margin: auto;
+    color: white;
+}
+main .section-1 .mobiles .arrow i:hover{
+    color: black;
+}
+main .section-1 .mobiles .arrow:hover{
+    background-color: white;
+}
+main .section-1 .mobiles .mobiles-text h3,h1,p{
+    color: white;
+}
+main .section-1 .mobiles .mobiles-text h3{
+    font-size: 36px;
+}
+main .section-1 .mobiles .mobiles-text p{
+    font-size: 18px;
+}
+main .section-1 .mobiles .mobiles-text h1{
+    font-size: 80px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+main .section-1 .mobiles .mobiles-text h1 span{
+    border: 1px solid white;
+    border-radius: 25%;
+}
+main .section-1 .mobiles .btns{
+    margin-top: 50px;
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+main .section-1 .mobiles .btns .viewmore{
+    width: 160px;
+    height: 50px;
+    background-color: #1D2C3B;
+    display: flex;
+    align-items: center;
+}
+main .section-1 .mobiles .btns .only{
+    width: 160px;
+    height: 50px;
+    background-color: #1ABC9C;
+    display: flex;
+    align-items: center;
+}
+main .section-1 .mobiles .btns .viewmore a{
+    color: white;
+    margin: auto;
+}
+main .section-1 .mobiles .btns .only a{
+    color: white;
+    margin: auto;
+}
