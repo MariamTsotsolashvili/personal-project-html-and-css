@@ -17,11 +17,11 @@
     justify-content: space-between;
 }
 main{
-    width:1920px;
+  /*  width:1920px;*/
 }
 /*section-1*/
 main .section-1{
-    width:1920px;
+    width:100%;
     height: 900px;
     background-color: #2C3E50;
     margin-top: 5px;
@@ -52,27 +52,23 @@ main .section-1 .header .logo img{
 }
 main .section-1 .header .logo{
     width: 194.09px;
-  /*  height: 65px;*/
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-main .section-1 .header .logo p{
-    
+main .section-1 .header .logo .fox-text p{
     font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-    line-height: 27px;
-
+    letter-spacing: -0.25px;
+    line-height: 33.71px;
+    font-size: 23.8px;
+    color: white;
 }
 main .section-1 .header .logo p .shop{
     font-size:35.69px;
     color: #1ABC9C;
 } 
-main .section-1 .header .logo p span{
+main .section-1 .header .logo .fox-text p:last-child{
     font-size:35.69px;
-    color: white;
-}
-main .section-1 .header .logo p{
-    font-size: 23.8px;
     color: white;
 }
 main .section-1  ul li{
@@ -247,7 +243,7 @@ main .section-1 .comp-1-last .dots ul li:nth-of-type(3){
 }
 /*section-2*/
 main .section-2{
-    width: 1920px;
+    width: 100%;
     height: 838px;
     background-color: #F9FAFA;
     padding-top: 90px;
@@ -795,12 +791,12 @@ main .section-6 .arrow i:hover{
     margin: auto;
 }
 .sect-6-content{
+    width: 1170px;
+    margin: auto;
     display: grid;
     grid-gap: 30px;
     grid-template-rows: 194px 194px;
     grid-template-columns: 570px 570px;
-    margin-left: 368px;
-    margin-top: 50px;
 }
 .sect-6-content-item-1{
     grid-area: 1 / 1 / 2 / 2;
@@ -930,7 +926,6 @@ main .section-7 .section-7-wrap{
 }
 main .section-7 .section-7-arrows{
     position: relative;
-    width: 1520px;
     margin: auto;
 }
 main .section-7 .section-7-arrows i{
