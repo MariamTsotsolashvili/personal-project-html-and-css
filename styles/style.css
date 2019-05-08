@@ -185,6 +185,9 @@ main .section-1 .mobiles .mobiles-text h3{
 main .section-1 .mobiles .mobiles-text h1 span{
     border: 1px solid white;
     border-radius: 25%;
+    height: 62px;
+    padding: 0 14px;
+    font-size: 80px;
 }
 main .section-1 .mobiles .btns{
     width: 340px;
