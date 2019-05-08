@@ -1165,3 +1165,83 @@ main .section-7 .section-7-wrap .section-7-txt{
 .info-3{
     margin-right: 108px;
 }
+/*section-10*/
+.section-10{
+    height: 612px;
+    width: 100%;
+    padding-top: 95px;
+}
+.sect-10-wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.sect-10-content-item{
+    width: 293px;
+    height: 320px;
+    font-family: "Lato";
+    margin-right: 22px;
+}
+.sect-10-content-item h4{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    width: 270px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E3E7EB;
+    margin-bottom: 20px;
+}
+.sect-10-content-inside-item{
+    display: flex;
+}
+.sect-10-content-inside-item p{
+    font-size: 14px;
+    color: #A1B1BC;
+    margin-top: -5px;
+    letter-spacing: -.1px;
+}
+.sect-10-content-inside-item i{
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #1ABC9C;
+    height: 13px;
+    width: 13px;
+    margin-right: 9px;
+}
+.sect-10-line{
+    height: 1px;
+    width: 270px;
+    background-color: #E3E7EB;
+    margin: 11px 0 15px 0;
+}
+
+#sect-10-fix-p-width{
+    width: 255px;
+}
+#sect-10-fix-letter-space{
+    letter-spacing: .05px;
+}
+.sect-10-content-item:nth-child(2){
+    margin-right: 31px;
+}
+.sect-10-content-item:nth-child(3){
+    margin-right: 30px;
+}
+.sect-10-search{
+    height: 60px;
+    width: 1170px;
+    border-radius: 2px;
+    background-color: #F5F7F8;
+    border: 1px solid #EAEAEA;
+    margin-top: 37px;
+    letter-spacing: 0.9px;
+    word-spacing: -2px;
+    padding-left: 30px;
+}
+.sect-10-search::placeholder{
+    font-family: "Lato";
+    font-size: 14px;
+    color: #A1B1BC;
+}
