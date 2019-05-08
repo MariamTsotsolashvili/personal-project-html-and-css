@@ -1127,4 +1127,41 @@ main .section-7 .section-7-wrap .section-7-txt{
     color: #1ABC9C;
     font-weight: bold;
 }
-
+/*section-9*/
+.section-9{
+    height: 300px;
+    width: 100%;
+    background-color: #34495E;
+}
+.sect-9-wrapper{
+    width: 1086px;
+    margin: auto;
+    height: 100%;
+}
+.sect-9-texts{
+    height: 282px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: "Lato";
+    color: #fff;
+}
+.sect-9-texts .sect-9-info-item h1{
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: -3px;
+}
+.sect-9-texts .sect-9-info-item p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.info-1{
+    margin-right: 109px;
+}
+.info-2{
+    margin-right: 131px;
+}
+.info-3{
+    margin-right: 108px;
+}
