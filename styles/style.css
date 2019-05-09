@@ -16,15 +16,12 @@
     display: flex;
     justify-content: space-between;
 }
-main{
-  /*  width:1920px;*/
-}
 /*section-1*/
 main .section-1{
-    width:100%;
+    margin-top: 5px;
+    width: 100%;
     height: 900px;
     background-color: #2C3E50;
-    margin-top: 5px;
 }
 main .section-1 .header{
     width: 1170px;
@@ -56,20 +53,28 @@ main .section-1 .header .logo{
     justify-content: space-between;
     align-items: center;
 }
+main .section-1 .header .logo .fox-text{
+    margin-top: -8px;
+    margin-right: -2px;
+}
 main .section-1 .header .logo .fox-text p{
     font-family: 'Lato', sans-serif;
     letter-spacing: -0.25px;
     line-height: 33.71px;
     font-size: 23.8px;
     color: white;
+    line-height: 26px;
 }
 main .section-1 .header .logo p .shop{
     font-size:35.69px;
     color: #1ABC9C;
+    font-weight: 400;
 } 
 main .section-1 .header .logo .fox-text p:last-child{
     font-size:35.69px;
     color: white;
+    font-weight: 700;
+    line-height: 35.69px;
 }
 main .section-1  ul li{
     font-size: 14px;
@@ -77,7 +82,7 @@ main .section-1  ul li{
     letter-spacing: 2px;
 }
 main .section-1 ul .last-li{
-        margin-right: -50px;
+    margin-right: -50px;
 }
 main .section-1 ul .sport{
     margin-left: 15px;
@@ -101,7 +106,7 @@ main .section-1 .mobiles{
 }
 main .section-1 .mobiles img{
     margin-top: 2px;
-    margin-right: -116px;
+    margin-right: -65px;
 }
 main .section-1 .mobiles .mobiles-text{
     width: 576.21px;
@@ -395,8 +400,8 @@ main .section-2 .arrow i:hover{
     border-radius: 100%;
 }
 .section-3 .section-3-wrapper .section-3-img img{
-    height: 25px;
-    width: 27px;
+    height: 50px;
+    width: 50px;
 }
 .section-3 .section-3-wrapper .section-3-txt{
     width: 750.92px;
@@ -538,12 +543,15 @@ main .section-2 .arrow i:hover{
     line-height: 24px;
     font-weight: bold;
     color: #2C3E50;
+    margin-left: 2.5px;
 }
 .sect-4-item-2-content p{
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
-    line-height: 26px;
+    line-height: 24px;
+    margin-left: 3px;
+    margin-top: 7px;
 }
 .sect-4-item-2:hover .sect-4-item-2-header{
     background-color: #1ABC9C;
@@ -563,7 +571,7 @@ main .section-2 .arrow i:hover{
 /*section5*/
 .section-5{
     width: 100%;
-    height: 1274px;
+    height: 1272px;
     margin-bottom: 100px;
     padding-top: 40px;
 }
@@ -628,8 +636,8 @@ main .section-2 .arrow i:hover{
     font-size: 15px;
     color: #fff;
     font-weight: 400;
-    line-height: 33px
-    letter-spacing: 3px;
+    line-height: 33px;
+    margin-left: -16px;
 }
 .sect-5-content-item-poster .sect-5-item-poster-head-2{
     width: 100%;
@@ -675,7 +683,7 @@ main .section-2 .arrow i:hover{
     display: none;
     position: absolute;
     width: 100%;
-    background-color: aqua;
+    background-color: #2C3E50;
     text-align: right;
     font-size: 20px;
     line-height: 35px;
@@ -695,10 +703,8 @@ main .section-2 .arrow i:hover{
 }
 .sect-5-content-item-rating .stars{
     width: 70px;
-    margin-bottom: 18px;
-}
-.sect-5-content-item-rating .stars i{
-    color: #1ABC9C;
+    margin-bottom: 9px;
+    margin-top: 10px;
 }
 .sect-5-content-item h6{
     font-family: "Lato";
@@ -757,6 +763,7 @@ main .section-6  .featured-arrows{
     width: 1170px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 39px;
 }
 main .section-6 .featured-arrows h3{
     font-family: 'Lato', sans-serif;
@@ -1242,4 +1249,11 @@ main .section-7 .section-7-wrap .section-7-txt{
     font-family: "Lato";
     font-size: 14px;
     color: #A1B1BC;
+}
+/**/
+.margin-right-25px{
+    margin-right: -25px;
+}
+.star-col{
+    color: #1ABC9C;
 }
